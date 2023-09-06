@@ -1,8 +1,6 @@
 import Billboard from "@/components/Billboard"
 import MovieList from "@/components/MovieList"
 import Navbar from "@/components/Navbar"
-import Navbaritem from "@/components/Navbaritem"
-import useCurrentUser from "@/hooks/useCurrentUser"
 import useMovieList from "@/hooks/useMovieList"
 import { NextPageContext } from "next"
 import { getSession } from "next-auth/react"
